@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - entry point
- * description printsa number and its last digit along with 
+ * description prints a number and its last digit along with
  *
  * Return: Always (Success)
  */
