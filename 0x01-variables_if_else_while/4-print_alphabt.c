@@ -2,9 +2,9 @@
 
 /**
  *
- * main- Entry point 
+ * main- Entry point
  *
- * Description: task 4 numbers
+ * Description: taskfour numbers
  *
  * Return: Always (Success)
  *
@@ -17,7 +17,6 @@ for (c = 'a'; c <= 'z'; c++)
 if (c != 'e' && c != 'q')
 {
 putchar(c);
-}
 }
 putchar('\n');
 return (0);
