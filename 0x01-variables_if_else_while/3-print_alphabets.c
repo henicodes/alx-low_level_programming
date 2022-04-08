@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main Entry point
+ * main - Entry point
  *
- * Description numbers Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * Description: numbers Write a progr in uppercase, followed by a new line.
  *
  * Return: Always (Success)
  */
