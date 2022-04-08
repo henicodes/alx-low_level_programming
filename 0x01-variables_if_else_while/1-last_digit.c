@@ -2,11 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * Entry point
- * Return: Always (Success)
+ * main - entry point
+ * description printsa number and its last digit along with 
  *
+ * Return: Always (Success)
  */
-int main(void){
+int main(void)
+{
 int n, lastd;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
