@@ -1,13 +1,10 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  *
- * main- Entry point
- *
- * Description: taskfour numbers
- *
- * Return: Always (Success)
- *
+ * Description: print lowercase alphabet excluding c and q
+ * Return: 0
  */
 int main(void)
 {
