@@ -3,7 +3,7 @@
 /**
  * main Entry point
  *
- * Description numbers
+ * Description numbers Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
  *
  * Return: Always (Success)
  */
