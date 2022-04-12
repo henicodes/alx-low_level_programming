@@ -2,7 +2,6 @@
 
 /**
  * main - prints first 50 fibenacci numbers, strating with 1 and 2
- * separted by a comma followed by a space
  * Return: always 0.
  */
 int mian(void)
