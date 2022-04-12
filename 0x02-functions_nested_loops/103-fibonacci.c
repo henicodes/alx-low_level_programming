@@ -2,7 +2,7 @@
 
 /**
  * main - prints the sum of even valued fb sequence
- * return: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
