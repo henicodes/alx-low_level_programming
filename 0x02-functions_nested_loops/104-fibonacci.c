@@ -16,7 +16,7 @@ for (count = 1; count <= 98; ++count)
 {
 if (f1o > 0)
 printf("%lu", f1o);
-initial0s = NumLength(mx) - 1 - numLength(f1);
+initial0s = NumLength(mx) - 1 - NumLength(f1);
 while (f1o > 0 && initial0s > 0)
 {
 printf("%d", 0);
