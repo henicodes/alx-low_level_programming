@@ -4,15 +4,11 @@
  *  main - cause an infinate loop
  *  Return: 0
  */
-
 int main(void)
 {
 int i;
-
 printf("Infinte loop incoming :(\n");
-
 i = 0;
-
 /*
  * while (i < 10)
  * {
