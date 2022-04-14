@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * main - tests funcation that prints if integere is positive or negative
