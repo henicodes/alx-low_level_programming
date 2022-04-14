@@ -7,7 +7,8 @@
  * 5 multiples print Buzz instead of the number
  * 3 & 5 multiples print FizzBuzz instead of the number
  * Return: Always 0 (Success)
- */int main(void)
+ */
+int main(void)
 {
 	int i;
 	char f[] = "Fizz";
