@@ -1,45 +1,25 @@
 #include "main.h"
 /**
- * infinite_add - adds two numbers
- * @n1: first number
- * @n2: second number
- * @r: buffer for result
- * @size_r: buffer size
- *
- * Return: address of r or 0
+ * rot13 - encodes strings using rot13.
+ * @s: pointer to string.
+ * Return: pointer to encoded string.
  */
-char *infinite_add(char *n1, char *n2, char *r, int size_r)
+char *rot13(char *s)
 {
-int i, j, k, l, m, n;
-for (i = 0; n1[i]; i++)
-;
-for (j = 0; n2[j]; j++)
-;
-if (i > size_r || j > size_r)
-return (0);
-m = 0;
-for (i -= 1, j -= 1, k = 0; k < size_r - 1; i--, j--, k++)
-{
-n = m;
-if (i >= 0)
-n += n1[i] - '0';
-if (j >= 0)
-n += n2[j] - '0';
-if (i < 0 && j < 0 && n == 0)
-{
-break;
-}
-m = n / 10;
-r[k] = n % 10 + '0';
-}
-r[k] = '\0';
-if (i >= 0 || j >= 0 || m)
-return (0);
-for (k -= 1, l = 0; l < k; k--, l++)
-{
-m = r[k];
-r[k] = r[l];
-r[l] = m;
-}
-return (r);
+	int stringCount, rotation;
+	char r1[] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+	char r2[] = {'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M'};
+
+	for (stringCount = 0; s[stringCount] != '\0'; stringCount++)
+	{
+		for (rotation = 0; rotation < 53; rotation++)
+		{
+			if (r1[rotation] == s[stringCount])
+			{
+				s[stringCount] = r2[rotation];
+				break;
+			}
+		}
+	}
+	return (s);
 }
