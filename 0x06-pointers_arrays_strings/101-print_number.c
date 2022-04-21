@@ -1,27 +1,44 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *print_number - prints an integer.
- *only using the putchar function.
- *noarrays and pointers.
- *@n: integer to be printed.
- *
- *Return: void.
+ * print_number - prints an integer
+ * @n: number to be printed
+ * Return: Always 0 (Success)
  */
 void print_number(int n)
 {
-	unsigned int num;
-/*check if number is negative*/
-	num = n;
-	if (n < 0)
-	{
-		_putchar(45);
-		num = -n;
-	}
-/* print number by recursion*/
-	if (num / 10)
-	{
-		print_number(num / 10);
-	}
-	_putchar((num % 10) + '0');
+	 int power, neg, hold;
+
+	 neg = 0;
+	 power = 1;
+	 hold = n;
+	 if (n < 0)
+	 {
+		 _putchar('-');
+		 neg = 1;
+	 }
+	 while (hold > 9 || hold < -9)
+	 {
+		  power *= 10;
+		  hold /= 10;
+	 }
+	 while (power > 0)
+	 {
+		  if (power > 9)
+		  {
+			  if (!neg)
+				  _putchar((n / power % 10) + '0');
+			  else
+				  _putchar((n / power % 10) * -1 + '0');
+			  power /= 10;
+		  }
+		  if (power == 1)
+		  {
+			   if (neg)
+				   _putchar((n % 10) * -1 + '0');
+			   else
+				   _putchar(n % 10 + '0');
+			   power = 0;
+		  }
+	 }
 }
