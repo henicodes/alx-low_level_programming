@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - entrypoint
+ * @P is number
+ * Return:non zero
+ */
 int main(void)
 {
 	int n;
