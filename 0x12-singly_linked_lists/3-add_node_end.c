@@ -5,7 +5,7 @@
 
 /**
  * add_node_end - function that adds a new node at the end of a list_t list
- * head: pointer to the pointer to the struct named head
+ * @head: pointer to the pointer to the struct named head
  * @str: pointer to the string str
  *
  * Return: pointer to the struct list_t
