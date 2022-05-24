@@ -51,4 +51,3 @@ int main(void)
 	free_listint_safe(&head);
 	return (0);
 }
-
