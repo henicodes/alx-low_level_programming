@@ -35,8 +35,8 @@ hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (1);
 	}
 
-	/* add new node if key not found */\
-	
+	/* add new node if key not found */
+
 	new_hash_node = malloc(sizeof(*new_hash_node));
 	if (!new_hash_node)
 		return (0);
