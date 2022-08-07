@@ -1,6 +1,6 @@
 # 0x00. C- Hello, World
 ## _For this project, we coverd the following concepts:_
-- [C- programming](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220727T192921Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=2efa0b2d44f7311ce017f3bf02497d8476502a82363ed8af9319812ab37d7f1d)
+- [C- programming](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220807%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220807T103314Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=1e964e78fae577e13435113615556da1c6c3f011f9235003c64bf4d3c99a0be3)
 - [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220727%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220727T193030Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=9584aa4ed7675a90914aad1c0e2d2bc2be3f9277e216fe38606891120107e799)
 - [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 - [“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M)
