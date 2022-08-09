@@ -43,6 +43,10 @@ To run the betty linter just command betty <filename>
 - once saved, exit file and change permission to apply to all users with `chmod a+x betty`
 - Move the `betty` file into `/bin/ directory or somewhere else in your `$PATH` with `sudo mv betty /bin/`
 #### You can now run betty linter successfuly.
-#### As pre Task I've followed the above section and installed betty linter on my local machine (vagrant)
+#### As pre above Task I've followed the above section and installed betty linter on my local machine (vagrant)
+## C - Hello, World
+This project covers compilation using gcc, entry points using main, and text-printing functions in C
 ## Tasks
 - **0. Preprocessor**
+  
+  
